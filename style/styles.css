@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    max-width: 1440px;
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+}
+
+.script-section{
+    display: none;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+    align-items: center;
+    padding: 48px;
+    margin: 20px 0px;
+    background-color: floralwhite;
+}
+
